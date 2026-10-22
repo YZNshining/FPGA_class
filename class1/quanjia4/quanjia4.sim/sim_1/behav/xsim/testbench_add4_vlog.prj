@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../quanjia4.srcs/sources_1/new/jia4.v" \
+"../../../../quanjia4.srcs/sim_1/new/tb_add4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
