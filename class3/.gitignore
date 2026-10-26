@@ -1,0 +1,26 @@
+# Vivado 生成目录
+*.sim/
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.gen/
+.Xil/
+
+# Vivado 生成文件
+*.wdb
+*.wcfg
+*.jou
+*.log
+*.pb
+*.str
+*.dcp
+*.bit
+*.ltx
+
+# Quartus 生成（如果你以后用）
+db/
+incremental_db/
+*.qws
+*.sof
+*.sopcinfo
